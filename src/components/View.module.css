@@ -1,0 +1,19 @@
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+.dataButton {
+  width: 35%;
+  background-color: #2d3f92;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
