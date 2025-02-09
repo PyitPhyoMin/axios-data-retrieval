@@ -79,7 +79,7 @@ function View() {
   }
 
   return (
-    <div>
+    <div className={styles.dataView}>
       <h1>{pageHeader}</h1>
       {passengers !== undefined && passengers.length > 0 && (
         <h2>
