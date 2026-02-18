@@ -8,6 +8,10 @@ const BASE_URL =
   // using DotNetCore API which is hosted on Render.com
   /* const BASE_URL =
   "https://webdotnetcoreapi-2.onrender.com/get-data";*/
-  const passengersApi = axios.create({ baseURL: BASE_URL }); 
+  const passengersApi = axios.create({ baseURL: BASE_URL,
+    headers: {
+      "x-api-key": process.env.REACT_APP_TRAVEL_API_KEY
+    }
+   }); 
 
 export default passengersApi;
